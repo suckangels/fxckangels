@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ===== discord copy (super-robust) =====
   const discordBtn = document.getElementById("discordBtn");
-  const DISCORD_TEXT = "coldngels";
+  const DISCORD_TEXT = "coldangels";
   const ORIGINAL_TEXT = "discord";
 
   async function copyText(text){
@@ -166,3 +166,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
