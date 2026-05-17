@@ -7,12 +7,10 @@ Requires cookies from a logged-in TikTok session.
 import os
 import json
 import time
-from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
@@ -153,7 +151,6 @@ def upload_single_video(driver, file_path: str, title: str, wait_timeout: int = 
         # Click the Post button
         post_selectors = [
             'button[data-e2e="post-button"]',
-            'button:has-text("Post")',
             '//button[contains(text(), "Post")]',
             '//button[contains(text(), "Опубликовать")]',
         ]

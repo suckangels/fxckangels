@@ -6,8 +6,6 @@ Uses YouTube Data API v3 with OAuth2 for authentication.
 import os
 import json
 import time
-import httplib2
-from pathlib import Path
 
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
