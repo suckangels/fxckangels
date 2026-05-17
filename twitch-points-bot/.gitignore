@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+logs/
+*.log
+
+# Config with secrets
+config.json
+
+# Virtual env
+venv/
+.venv/
+env/
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+cookies/

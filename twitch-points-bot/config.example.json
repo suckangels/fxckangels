@@ -1,0 +1,12 @@
+{
+    "auth_token": "ВАШ_ТОКЕН_СЮДА",
+    "streamers": [
+        "streamer1",
+        "streamer2"
+    ],
+    "check_interval_seconds": 60,
+    "claim_bonus": true,
+    "follow_raids": true,
+    "watch_streak": true,
+    "log_level": "INFO"
+}
