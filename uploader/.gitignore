@@ -1,0 +1,19 @@
+# Секреты и токены
+client_secrets.json
+youtube_token.json
+tiktok_cookies.json
+config.json
+
+# Видео файлы
+clips/*.mp4
+clips/*.avi
+clips/*.mov
+clips/*.mkv
+clips/*.webm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/

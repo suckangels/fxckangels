@@ -1,0 +1,49 @@
+{
+  "clips_dir": "clips",
+
+  "clips": [
+    {
+      "file": "clip1.mp4",
+      "title": "Клип 1 — Название",
+      "description": "Описание первого клипа",
+      "tags": ["clip", "music"]
+    },
+    {
+      "file": "clip2.mp4",
+      "title": "Клип 2 — Название",
+      "description": "Описание второго клипа",
+      "tags": ["clip", "music"]
+    },
+    {
+      "file": "clip3.mp4",
+      "title": "Клип 3 — Название",
+      "description": "Описание третьего клипа",
+      "tags": ["clip", "music"]
+    },
+    {
+      "file": "clip4.mp4",
+      "title": "Клип 4 — Название",
+      "description": "Описание четвёртого клипа",
+      "tags": ["clip", "music"]
+    },
+    {
+      "file": "clip5.mp4",
+      "title": "Клип 5 — Название",
+      "description": "Описание пятого клипа",
+      "tags": ["clip", "music"]
+    }
+  ],
+
+  "youtube": {
+    "client_secrets": "client_secrets.json",
+    "token_file": "youtube_token.json",
+    "privacy": "public",
+    "category_id": "22",
+    "tags": ["clip", "music", "video"]
+  },
+
+  "tiktok": {
+    "cookies_file": "tiktok_cookies.json",
+    "headless": false
+  }
+}
